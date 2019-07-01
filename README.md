@@ -32,7 +32,7 @@ the double underscores (__) which denote hierarchy. So to point a Steeltoe appli
 to set the environment in Cloud Foundry and restart the application.
 
 ```
-cf set-env foo cloud__config__uri https://<unique-config-server-hostname>.cfapps.io
+cf set-env foo spring__cloud__config__uri https://<unique-config-server-hostname>.cfapps.io
 cf restart foo
 ``` 
 
